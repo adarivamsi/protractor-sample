@@ -12,17 +12,17 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Setup
 
----
-
     git clone https://github.com/juliemr/protractor-demo.git
     cd protractor-demo
     npm install
 
 Get ChromeDriver set up:
-Run `webdriver-manager update`.
+
+    `webdriver-manager update`.
 
 To run the Protractor Tests:
-Run `protractor ./automation/config/conf.js`
+
+    `protractor ./automation/config/conf.js`
 
 Watch them go!
 
