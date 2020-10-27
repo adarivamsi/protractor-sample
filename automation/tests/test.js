@@ -1,9 +1,9 @@
 const { browser } = require("protractor");
 
-describe("Check the Base Url", function () {
-  it("Check the Base Url", function () {
+describe("Check the Base Url if it is redirected", function () {
+  it("Check the Base Url if it is redirected", function () {
     browser.get("http://localhost:4200/");
-    expect(browser.getCurrentUrl()).toBe("http://localhost:4200/");
+    expect(browser.getCurrentUrl()).toBe("http://localhost:4200/home");
   });
 });
 
