@@ -12,8 +12,8 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Setup
 
-    git clone https://github.com/juliemr/protractor-demo.git
-    cd protractor-demo
+    git clone https://github.com/adarivamsi/protractor-sample.git
+    cd protractor-sample
     npm install
 
 Get ChromeDriver set up:
