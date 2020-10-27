@@ -1,0 +1,10 @@
+<div class="container">
+  <h3>Addition Calculator</h3>
+  <div ng-app="">
+    <input type="number" [(ngModel)]="one" id="one" class="one" placeholder="First number"/>
+    <label> + </label>
+    <input type="number" [(ngModel)]="two" id="two" class="two" placeholder="Second number"/>
+    <label id="result" class="result">{{ one -- two }}</label><br/>
+    <button id="clear" (click)="clear()">Clear</button>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+.container {
+  text-align: center;
+}
+
+.container > input,
+label {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.result {
+  font-size: 18px;
+}
+
+button {
+  margin: 8px;
+}
