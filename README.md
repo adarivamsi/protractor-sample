@@ -18,17 +18,17 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 Get ChromeDriver set up:
 
-    `webdriver-manager update`.
+    webdriver-manager update.
 
 To run the Protractor Tests:
 
-    `protractor ./automation/config/conf.js`
+    protractor ./automation/config/conf.js
 
 Watch them go!
 
 ## To check the Reports of Protractor Tests
 
-> Open **_/target_** folder and hit click on **ProtractorTestReport.html**
+> Open **_/target_** folder and click on **ProtractorTestReport.html** open on any WebBrowser.
 
 ## Running unit tests
 
